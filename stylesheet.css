@@ -1,27 +1,76 @@
 body{
-  background-image: url('images/background-pic.jpg');
+  background-image: url('images/pic.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 800px 800px;
 }
 
-.white-card {
+.container {
+  width: 500px;
+  margin:0 auto;
+}
+
+.btn-pink {
+  background-color: #F7A399;
+  color:azure;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-left: 200px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 
 }
 
-.footer {
-
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+  margin-left: 20px;
+  margin-top: 5px;
 }
 
-.introduction {
+.card h1,h2{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color:#F38375
+}
+.card p {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
 
+.introduction{
+  margin-bottom:40px;
+}
+
+.introduction h1 {
+  font-family: 'Handlee', cursive;
+  color:#F7A399
 }
 #profile-pic {
   height: 160px;
   width: 160px;
   border-radius: 50%;
+  margin-left: 170px;
 }
 
 .link {
   text-decoration: none;
+  font-size: 25px;
+  color:#EF6351;
+}
+
+.card{
+  padding-bottom: 10px;
+}
+
+.gif {
+  border-radius: 50%;
+  margin-left: 190px;
+  width: 120px;
+  height: auto;
 }

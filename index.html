@@ -3,55 +3,71 @@
   <head>
     <title>My profile page</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"> -->
     <link rel="stylesheet" href="stylesheet.css">
-
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@280&family=Poppins:ital,wght@1,100&display=swap');
+      </style>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
-    <div class="white-card introduction">
-      <h1>Hello, I'm Pilar &#128512;</h1>
-      <img id= profile-pic src="/images/profile-pic.jpg" alt="a picture of Pilar">
-      <p>I am programmer &#128187; ukulele player &#127925; and crazy cat lady &#128049;</p>
-      <button>Press me!</button>
-    </div>
-    <div class="white-card">
-      <h2>Music</h2>
-      <p>I love listening to all sorts of music and play instruments</p>
-      <p>I am the most okayest ukulele player out there</p>
-    </div>
-    <div class="white-card">
-      <h2>Animals</h2>
-      <p>I love animals. My favourite ones are cats and llamas</p>
-      <p>I have a fluff ball called Tabitha</p>
-    </div>
-    <div class="white-card">
-      <h2>Grandma soul</h2>
-      <p>I have grandma hobbies such as knitting and crocheting</p>
-    </div>
-    <div class="white-card">
-      <h2>Some title</h2>
-      <p>some description</p>
-    </div>
-    <div class="white-card footer">
-      <h2>Follow me</h2>
-      <ul class="list-inline">
-        <li>
-          <a class = "link" href="https://github.com/Pilar-SP" target="_blank">
-            <i class="fa-brands fa-github"></i>Github
-          </a>
-        </li>
-        <li>
-          <a class = "link" href="https://twitter.com/home" target="_blank">
-            <i class="fa-brands fa-twitter"></i>Twitter
-          </a>
+    <div class="container">
+      <div class="card introduction">
+        <p>.</p>
+        <h1>Hello, I'm Pilar &#128512;</h1>
+        <img id= 'profile-pic' src="/images/profile-pic.jpg" alt="a picture of Pilar">
+        <p>I am a programmer &#128187; ukulele player &#127925; and crazy cat lady &#128049;</p>
+        <br>
+        <a onclick="myFunction()" href="#" class="btn-pink">Press me!</a>
+        <p id="boom"></p>
+        <script>
+          function myFunction() {
+            document.getElementById("boom").innerHTML = '<img src="/images/boom.png"/>';
+          }
+          </script>
+
+      </div>
+      <hr>
+      <div class="card">
+        <h2>Music</h2>
+        <p>I love listening to all sorts of music and play instruments</p>
+        <p>I am the most okayest ukulele player out there</p>
+        <img class="gif" src="/images/catbut.gif">
+      </div>
+      <div class="card">
+        <h2>Animals</h2>
+        <p>I love animals. My favourite ones are cats and llamas</p>
+        <p>I have a fluff ball called Tabitha</p>
+        <img class="gif" src="/images/tabi.jpg">
+      </div>
+      <div class="card">
+        <h2>Grandma soul</h2>
+        <p>I have grandma hobbies such as knitting and crocheting</p>
+        <p>I like to design and create amigurumis</p>
+        <img class="gif" src="/images/link1.jpg">
+      </div>
+      <div class="card footer">
+        <h2>Follow me</h2>
+        <ul class="list-inline">
           <li>
-            <a class = "link" href="https://www.linkedin.com/in/pilar-sanchez-294b15236/" target="_blank">
-              <i class="fa-brands fa-linkedin"></i>Linkedin
+            <a class = "link" href="https://github.com/Pilar-SP" target="_blank">
+              <i class="fab fa-github-square"></i>Github
             </a>
           </li>
-        </li>
-      </ul>
+          <li>
+            <a class = "link" href="https://twitter.com/home" target="_blank">
+              <i class="fab fa-twitter-square"></i>Twitter
+            </a>
+            <li>
+              <a class = "link" href="https://www.linkedin.com/in/pilar-sanchez-294b15236/" target="_blank">
+                <i class="fab fa-linkedin"></i>Linkedin
+              </a>
+            </li>
+          </li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
