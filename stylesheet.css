@@ -1,0 +1,27 @@
+body{
+  background-image: url('images/background-pic.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.white-card {
+
+}
+
+.footer {
+
+}
+
+.introduction {
+
+}
+#profile-pic {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+}
+
+.link {
+  text-decoration: none;
+}
